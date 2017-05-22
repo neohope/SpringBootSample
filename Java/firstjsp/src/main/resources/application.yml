@@ -1,0 +1,44 @@
+spring:
+  application:
+    name: firstjsp
+    admin:
+      enabled: true
+  main:
+    banner-mode: console
+  profiles: default
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+      
+      
+server:
+  port: 8000
+
+#security:
+#  user:
+#    name: user
+#    password: boot
+#    role:
+#    - USER
+#    - ADMIN
+#    - SUPERWISER
+    
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: true
+
+management:
+  security:
+    enabled: true
+
+logging:
+  file: app.log 
+#  path:
+  level:
+    root: INFO
+
+  
+      
+      

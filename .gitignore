@@ -1,0 +1,12 @@
+# ignore mac build files
+.settings/
+.apt_generated/
+.gradle/
+.idea/
+target/
+build/
+out/
+.factorypath
+.springBeans
+*.log
+

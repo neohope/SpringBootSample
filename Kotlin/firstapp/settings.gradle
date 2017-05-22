@@ -1,0 +1,2 @@
+rootProject.name = 'SpringBootKotlin'
+rootProject.buildFileName = 'build.gradle'
