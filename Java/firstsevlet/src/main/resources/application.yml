@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: firstsevlet
+    admin:
+      enabled: true
+  main:
+    banner-mode: console
+  profiles: default
+
+server:
+  port: 8000
+
+#security:
+#  user:
+#    name: user
+#    password: boot
+#    role:
+#    - USER
+#    - ADMIN
+#    - SUPERWISER
+    
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: true
+
+management:
+  security:
+    enabled: false
+
+hiup:
+  servers:
+    - server00
+    - server01
+
+logging:
+  file: app.log 
+#  path:
+  level:
+    root: INFO
+
+neo:
+  enabled: true
+  security: 
+    username: u01
+    password: p01
+ 
